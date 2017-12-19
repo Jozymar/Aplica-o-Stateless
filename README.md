@@ -1,1 +1,1 @@
-# Aplica-o-Stateless
+# Bean de Sessão Stateless

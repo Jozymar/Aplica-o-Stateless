@@ -1,0 +1,6 @@
+FROM payara/server-web
+
+COPY core/target/core.war ${PAYARA_PATH}/deployments
+COPY web/target/web.war ${PAYARA_PATH}/deployments
+COPY jsf/target/jsf.war ${PAYARA_PATH}/deployments
+
